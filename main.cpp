@@ -12,10 +12,11 @@ int main()
 
 int a = 10;
 int b = 20;
-
-a += b;
-b -= a;
-
+//Switching vars
+a=a+b;
+b=a-b;
+a=a-b;
+//Result of switching
 cout << "result on a:" << a << "   result of b:" << b << endl;
 
 
