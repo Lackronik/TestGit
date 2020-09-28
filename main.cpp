@@ -13,9 +13,9 @@ int main()
 int a = 10;
 int b = 20;
 //Switching vars
-a=a ^ b;
-b=b ^ a;
-a=a ^ b;
+a=a * b;
+b=b / a;
+a=a / b;
 //Result of switching
 cout << "result on a:" << a << "   result of b:" << b << endl;
 
