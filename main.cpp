@@ -3,6 +3,8 @@
 
 using namespace std;
 
+
+//Main function of project
 int main()
 {
 	if (2>1) then
